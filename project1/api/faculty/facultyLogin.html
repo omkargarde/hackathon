@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css"/>
+    <!--Animate CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <title>FACULTY LOGIN</title>
+  </head>
+  <body class="bg-1">
+    <form class="form-group" action="facultyLogin.php" method="post">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3">
+            <div class="card">
+              <h2 class="card-title d-flex justify-content-center">faculty Login </h2>
+              <div class="form-body">
+                <div class = "form-group">
+                  <label for="facultyLoginId">Login-ID</label>
+                  <input type="text" class="form-control col-md-12" name="facultyLoginId" id="facultyLoginId" value="loginId" required/>
+                </div>
+                <div class = "form-group">
+                  <label for="facultyLoginPassword">Password</label>
+                  <input type="password" class="form-control col-md-12" name="facultyLoginPassword" id="facultyLoginPassword" value="" required/>
+                </div>
+                <button type="submit" class="btn btn-info col-md-12" name="facultyLoginSubmit" id="facultyLoginSubmit">Submit</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3"></div>
+        </div>
+      </div>
+    </form>
+    <!--=====================================================================-->
+    <script src="js/bootstrap.bundle.js"></script>
+  </body>
+</html>

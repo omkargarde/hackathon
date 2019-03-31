@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css"/>
+    <!--Animate CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <title>New project</title>
+  </head>
+  <body class="bg-1">
+    <form class="" action="addNewProject.php" method="post">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3"></div>
+          <div class="col-md-6">
+            <div class="card">
+              <h4 class="card-title d-flex justify-content-center">Enter Project Details</h4>
+              <div class="card-body">
+                <div class="form-group">
+                  <label for="projectId">Project Id</label>
+                  <input type="text" class="form-control col-md-12" name="projectId" id="projectId" value="" required/>
+                </div>
+                <div class="form-group ">
+                  <label for="projectName">Project Name</label>
+                  <input type="text" class="form-control col-md-12" name="projectName" id="projectName" value="" required/>
+                </div>
+                <div class="form-group">
+                  <label for="projectAgency">Project Agency</label>
+                  <input type="text"class="form-control col-md-12" name="projectAgency" id="projectAgency" value="" required/>
+                </div>
+                <div class="form-group">
+                  <label for="projectAmount">Project Amount</label>
+                  <input type="number" class="form-control col-md-12" name="projectAmount" id="projectAmount" value="" required/>
+                </div>
+                <div class="form-group">
+                  <label for="projectTopic">Project Topic</label>
+                  <input type="text" class="form-control col-md-12" name="projectTopic" id="projectTopic" value="" required/>
+                </div>
+                <div class="form-group">
+                  <label for="projectField">Project Field</label>
+                  <input type="text" class="form-control col-md-12" name="projectField" id="projectField" value="" required/>
+                </div>
+                <div class="form-group">
+                  <label for="projectYear">Project Year</label>
+                  <input type="number" class="form-control col-md-12" name="projectYear" id="projectYear" value="" required></input>
+                </div>
+                <button type="submit" class="btn btn-info col-md-12" name="projectAdd" id="projectAdd">ADD DETAILS</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3"></div>
+        </div>
+      </div>
+    </form>
+  </body>
+</html>
