@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>ADMIN POST</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--===============================================================================================-->	
+	<link rel="icon" type="image/png" href="http://sanjay-sahay.com/wp-content/uploads/2015/07/2-3.png"/>
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+<!--===============================================================================================-->	
+	<link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="css/util.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+<!--===============================================================================================-->
+
+<style>
+    
+    .wrap-login100{
+		background:rgb(236, 231, 231);
+	}
+    #psttxt{
+        resize:none;
+    }
+    #sub{
+        height:40px;width:150px;color:orange;background:white;border:1px solid black;
+    }
+    #sub:hover{
+        color:white;background:orange;
+    }
+    #psttxt{
+        padding:10px;color:black;
+    }
+    textarea{
+        border:2px solid black;box-shadow:2px 3px 5px black;
+    }
+    input,button{
+        box-shadow:2px 5px 5px black;border:1px solid black;
+    }
+    </style></head>
+<body>
+	
+	<div class="limiter">
+		<div class="container-login100">
+			<div class="wrap-login100" style="margin:0px;padding-top:10px;box-shadow:2px 5px 5px black;">
+						<form action="action.php" method="POST">
+								
+						<center><h1 style="font-family:comic sans ms;text-align:center">POSTING PAGE</h2></center>
+							
+							<br><br>
+							<h3>Title of the post</h3><input type="text" name="posttl"><br>
+							<br>
+							<h3>Category</h3><input type="text" name="postcat"><br>
+<br>
+							<h3>Content</h3>
+							<textarea name="posttext" id="psttxt" cols="50" rows="20" ></textarea><br><br>
+							<button type="submit" name="submit"  id="sub"><b>PREVIEW</b></button><br>
+							</form>
+							
+
+			
+			</div>
+		</div>
+	</div>
+	
+	
+
+	
+<!--===============================================================================================-->	
+	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/bootstrap/js/popper.js"></script>
+	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/select2/select2.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/tilt/tilt.jquery.min.js"></script>
+	
+<!--===============================================================================================-->
+	<script src="js/main.js"></script>
+
+</body>
+</html>
