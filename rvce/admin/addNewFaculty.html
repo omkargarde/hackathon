@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+    <title>ADD NEW FACULTY</title>
+  </head>
+  <body class="bg-1">
+    <form class="" action="addNewFaculty.php" method="post">
+      <div class="container ">
+        <div class="row">
+          <div class="col-md-3"></div>
+          <div class="col-md-6 ">
+          <br>
+            <div class="card ">
+              <div class="card-body ">
+                  <div class="form-group">
+                    <label for="facultyName">Faculty Name</label>
+                    <input type="text" class="form-control" name="facultyName" id="facultyName" placeholder="Enter the name" value="">
+                  </div>
+                  <div class="form-group">
+                    <label for="facultyId">Faculty ID</label>
+                    <input type="text" class="form-control" name="facultyfsn" id="facultyId" value="">
+                  </div>
+                  <div class="form-group">
+                    <label for="facultyEmail">Faculty email</label>
+                    <input type="email" class="form-control" name="facultyEmail" id="facultyEmail" aria-describedby="emailHelp" value="" placeholder="Enter email">
+                  </div>
+                  <div class="form-group">
+                    <label for="facultyPassword">Initial Password</label>
+                    <input type="password" class="form-control" name="facultyPassword" id="facultyPassword" value="" placeholder="Password">
+                  </div>
+                  <div class="form-group">
+                    <input type="checkbox" name="courseCode[]" value="1">1
+                    <input type="checkbox" name="courseCode[]" value="2">2
+                    <input type="checkbox" name="courseCode[]" value="3">3
+                    <input type="checkbox" name="courseCode[]" value="4">4
+                    <input type="checkbox" name="courseCode[]" value="5">5
+                    <input type="checkbox" name="courseCode[]" value="6">6
+                    <input type="checkbox" name="courseCode[]" value="7">7
+                    <input type="checkbox" name="courseCode[]" value="8">8
+                    <input type="checkbox" name="courseCode[]" value="9">9
+                    <input type="checkbox" name="courseCode[]" value="10">10
+                    <input type="checkbox" name="courseCode[]" value="11">11
+                    <input type="checkbox" name="courseCode[]" value="12">12
+                  </div>
+                  <button type="submit" name="facultyDetailsSubmit" class="btn btn-primary" value="submit">Submit</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3"></div>
+        </div>
+      </div>
+
+    </form>
+    <!--=====================================================================-->
+    <script src="js/bootstrap.bundle.js"></script>
+  </body>
+</html>
